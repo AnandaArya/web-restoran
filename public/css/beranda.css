@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins' sans-serif;
+    background-color: #ffffff;
+}
+
+nav .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+section.title {
+    /* background-color: #2a44b9; */
+    background-color: #243b58;
+    min-height: 140px;
+    color: white;
+}
+
+section.title p {
+    color: #cac7c7;
+    /* font-weight: bold; */
+}
+
+section.menu {
+    min-height: 80px;
+    background-color: white;
+    margin-top: -40px;
+    border-radius: 10px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.008),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.012),
+        0 12.5px 10px rgba(0, 0, 0, 0.015),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.018),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.022),
+        0 100px 80px rgba(0, 0, 0, 0.03);
+    /* position: fixed; */
+
+}
+
+section.menu ul {
+    list-style-type: none;
+}
+
+section.menu a {
+    color: rgba(32, 29, 29, 0.8);
+    text-decoration: none;
+    font-family: calibri;
+}
+
+section.content {
+    background-color: white;
+    min-height: 700px;
+    border-radius: 10px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.008),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.012),
+        0 12.5px 10px rgba(0, 0, 0, 0.015),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.018),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.022),
+        0 100px 80px rgba(0, 0, 0, 0.03);
+    margin-bottom: 40px;
+}
+
+/* ==== MENU PENGGUNA ==== */
+
+.btn-tambah-pengguna {
+    background-color:  rgb(80, 132, 196);
+    color: white;
+}
+
+.btn-edit-pengguna {
+    background-color: rgb(241, 196, 47);
+    color: white;
+}
+
+/* === MENU ORDER === */
+.btn-pesan-menu {
+    background-color:  rgb(80, 132, 196);
+    color: white;
+}
+
+/* === MENU TRANSAKSI === */
+
+.btn-selesai {
+    background-color: rgb(53, 197, 101);
+    color: white;
+}
+
+.badge-selesai {
+    font-size: 14px;
+}
