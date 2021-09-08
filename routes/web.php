@@ -21,7 +21,7 @@ Route::get('/login', function () {
     return view('layout/auth');
 })->name('login');
 
-Route::post('/postlogin', 'LoginController@postlogin')->name('postlogin');
+Route::post('/postlogin', 'LoginController@postLogin')->name('postlogin');
 Route::get('/daftar', 'LoginController@daftar');
 Route::post('/daftar/store', 'LoginController@store');
 Route::get('/logout', 'LoginController@logout')->name('logout');

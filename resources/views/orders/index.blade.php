@@ -41,7 +41,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ $order->nama }}</h5>
                     <p class="card-text">Rp. {{ $order->harga }}</p>
-                    <span class="badge badge-{{ $order->status == 'tersedia' ? 'success':'danger' }} d-block p-1 my-2">{{ $order->status }}</span>
+                    <span class="badge badge-{{ $order->status == 'Tersedia' ? 'success':'danger' }} d-block p-1 my-2">{{ $order->status }}</span>
                     <a href="{{ url('orders/'.$order->id.'/new') }}" class="btn btn-pesan-menu d-block">Pesan</a>
                 </div>
             </div>
